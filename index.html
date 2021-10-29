@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tippy Example</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "tippy.js": "https://ga.jspm.io/npm:tippy.js@6.3.2/dist/tippy.esm.js",
+          "@popperjs/core": "https://ga.jspm.io/npm:@popperjs/core@2.10.2/lib/index.js"
+        }
+      }
+    </script>
+    <script type="text/javascript">
+      import tippy from "tippy.js";
+
+      tippy("[data-tippy-content]");
+    </script>
+  </head>
+  <body>
+    <span data-tippy-content="Welcome!">Hello World!</span>
+  </body>
+</html>
